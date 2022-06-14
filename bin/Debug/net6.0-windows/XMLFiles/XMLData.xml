@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ClientData xmlns:xsi="https://github.com/JakubWlodarczyk1/StoreCartWinForms" schemalocation="https://github.com/JakubWlodarczyk1/StoreCartWinForms" xmlns="https://github.com/JakubWlodarczyk1/StoreCartWinForms">
+  <Header>
+    <ContentDate />
+  </Header>15/06/2022 01:09:59<Client><Name>Mariusz</Name><Surname>Pudzianowski</Surname><BirthDate>15/06/2022 01:08:34</BirthDate><Products><Product><ProductName>FIFA 21</ProductName><Quanity>1</Quanity><Price>199</Price></Product><Product><ProductName>FIFA 20</ProductName><Quanity>1</Quanity><Price>148</Price></Product><Product><ProductName>zapalniczka</ProductName><Quanity>3</Quanity><Price>75</Price></Product></Products></Client></ClientData>
