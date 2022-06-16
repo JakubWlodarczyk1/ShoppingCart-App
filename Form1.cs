@@ -51,7 +51,6 @@ namespace StoreCartWinForms
                 listOfProducts[index].Quanity = Convert.ToInt16(quanityTxt.Text);
                 listOfProducts[index].Price = Convert.ToDecimal(priceTxt.Text);
 
-                ClearProductText();
             }
         }
 
@@ -135,6 +134,7 @@ namespace StoreCartWinForms
             }
             var newFileName = string.Format($"XMLData.xml");
             doc.Save(basePath + newFileName);
+            MessageBox.Show("Poprawnie zapisano zamówienie do XML \n Ścieżka pliku: ..\\ShoppingCart-App-master\\bin\\Debug\\net6.0-windows\\XMLFiles");
         }
 
         private void SaveToDb()
@@ -167,6 +167,8 @@ namespace StoreCartWinForms
                 nameTxt.Text = String.Empty;
                 surnameTxt.Text = String.Empty;
                 HidePanel();
+                ClearProductText();
+                MessageBox.Show("Poprawnie zapisano zamówienie");
             }
             else
             {
